@@ -16,6 +16,15 @@
 		3AB2716F21AA9F5400DEF53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2716E21AA9F5400DEF53E /* Assets.xcassets */; };
 		3AB2717221AA9F5400DEF53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2717021AA9F5400DEF53E /* LaunchScreen.storyboard */; };
 		AB52D21E40DD9308A3216F3E /* Pods_EmilyEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CFB0CA1A492B2D36E41468 /* Pods_EmilyEnglish.framework */; };
+		ECE627C721AAEFF600DC63BE /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ECE627C621AAEFF600DC63BE /* 1.mp4 */; };
+		ECE627CC21AC262300DC63BE /* LettersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627CB21AC262300DC63BE /* LettersViewController.swift */; };
+		ECE627CE21AC263400DC63BE /* LetterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627CD21AC263400DC63BE /* LetterDetailViewController.swift */; };
+		ECE627D021AD8C7500DC63BE /* ImageViewClCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627CF21AD8C7500DC63BE /* ImageViewClCell.swift */; };
+		ECE627D221AD8E5E00DC63BE /* LettersSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627D121AD8E5E00DC63BE /* LettersSoundView.swift */; };
+		ECE627D421AD8EBC00DC63BE /* ImageSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627D321AD8EBC00DC63BE /* ImageSoundView.swift */; };
+		ECE627D621AD8ED100DC63BE /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627D521AD8ED100DC63BE /* VideoView.swift */; };
+		ECE627D821B576CF00DC63BE /* LetterSoundClCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627D721B576CF00DC63BE /* LetterSoundClCell.swift */; };
+		ECE627DA21B57A5100DC63BE /* LetterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE627D921B57A5100DC63BE /* LetterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,15 @@
 		B9AEF6972D1F9154BB1368FE /* Pods-EmilyEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmilyEnglish.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmilyEnglish/Pods-EmilyEnglish.release.xcconfig"; sourceTree = "<group>"; };
 		D6CFB0CA1A492B2D36E41468 /* Pods_EmilyEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmilyEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DD4D3069AA277DFCFE4D03 /* Pods-EmilyEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmilyEnglish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmilyEnglish/Pods-EmilyEnglish.debug.xcconfig"; sourceTree = "<group>"; };
+		ECE627C621AAEFF600DC63BE /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		ECE627CB21AC262300DC63BE /* LettersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersViewController.swift; sourceTree = "<group>"; };
+		ECE627CD21AC263400DC63BE /* LetterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterDetailViewController.swift; sourceTree = "<group>"; };
+		ECE627CF21AD8C7500DC63BE /* ImageViewClCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewClCell.swift; sourceTree = "<group>"; };
+		ECE627D121AD8E5E00DC63BE /* LettersSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersSoundView.swift; sourceTree = "<group>"; };
+		ECE627D321AD8EBC00DC63BE /* ImageSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSoundView.swift; sourceTree = "<group>"; };
+		ECE627D521AD8ED100DC63BE /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		ECE627D721B576CF00DC63BE /* LetterSoundClCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSoundClCell.swift; sourceTree = "<group>"; };
+		ECE627D921B57A5100DC63BE /* LetterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +76,18 @@
 		3A6DC46621AAAB1E0079E494 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3A6DC46721AAAB1E0079E494 /* mp3 */,
+				ECE627C521AAEFDE00DC63BE /* Videos */,
+				3A6DC46721AAAB1E0079E494 /* Mp3 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3A6DC46721AAAB1E0079E494 /* mp3 */ = {
+		3A6DC46721AAAB1E0079E494 /* Mp3 */ = {
 			isa = PBXGroup;
 			children = (
 				3A6DC46821AAAB1E0079E494 /* 1.mp3 */,
 			);
-			path = mp3;
+			path = Mp3;
 			sourceTree = "<group>";
 		};
 		3AB2715B21AA9F5400DEF53E = {
@@ -92,6 +111,7 @@
 		3AB2716621AA9F5400DEF53E /* EmilyEnglish */ = {
 			isa = PBXGroup;
 			children = (
+				ECE627CA21AC260E00DC63BE /* Letters */,
 				3A6DC46621AAAB1E0079E494 /* Resources */,
 				3A6DC45A21AAA5970079E494 /* JukeBox */,
 				3AB2716721AA9F5400DEF53E /* AppDelegate.swift */,
@@ -119,6 +139,29 @@
 				D6CFB0CA1A492B2D36E41468 /* Pods_EmilyEnglish.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE627C521AAEFDE00DC63BE /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				ECE627C621AAEFF600DC63BE /* 1.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		ECE627CA21AC260E00DC63BE /* Letters */ = {
+			isa = PBXGroup;
+			children = (
+				ECE627CB21AC262300DC63BE /* LettersViewController.swift */,
+				ECE627CD21AC263400DC63BE /* LetterDetailViewController.swift */,
+				ECE627CF21AD8C7500DC63BE /* ImageViewClCell.swift */,
+				ECE627D121AD8E5E00DC63BE /* LettersSoundView.swift */,
+				ECE627D321AD8EBC00DC63BE /* ImageSoundView.swift */,
+				ECE627D521AD8ED100DC63BE /* VideoView.swift */,
+				ECE627D721B576CF00DC63BE /* LetterSoundClCell.swift */,
+				ECE627D921B57A5100DC63BE /* LetterModel.swift */,
+			);
+			path = Letters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +228,7 @@
 			files = (
 				3A6DC46921AAAB1E0079E494 /* 1.mp3 in Resources */,
 				3AB2717221AA9F5400DEF53E /* LaunchScreen.storyboard in Resources */,
+				ECE627C721AAEFF600DC63BE /* 1.mp4 in Resources */,
 				3AB2716F21AA9F5400DEF53E /* Assets.xcassets in Resources */,
 				3AB2716D21AA9F5400DEF53E /* Main.storyboard in Resources */,
 			);
@@ -200,10 +244,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EmilyEnglish/Pods-EmilyEnglish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MobilePlayer/MobilePlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
+				"${BUILT_PRODUCTS_DIR}/RandomColorSwift/RandomColorSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobilePlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RandomColorSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,9 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE627D221AD8E5E00DC63BE /* LettersSoundView.swift in Sources */,
+				ECE627CE21AC263400DC63BE /* LetterDetailViewController.swift in Sources */,
+				ECE627D421AD8EBC00DC63BE /* ImageSoundView.swift in Sources */,
 				3A6DC45E21AAA5970079E494 /* Jukebox.swift in Sources */,
 				3A6DC45D21AAA5970079E494 /* JukeboxItem.swift in Sources */,
+				ECE627CC21AC262300DC63BE /* LettersViewController.swift in Sources */,
+				ECE627D621AD8ED100DC63BE /* VideoView.swift in Sources */,
 				3AB2716A21AA9F5400DEF53E /* ViewController.swift in Sources */,
+				ECE627D821B576CF00DC63BE /* LetterSoundClCell.swift in Sources */,
+				ECE627DA21B57A5100DC63BE /* LetterModel.swift in Sources */,
+				ECE627D021AD8C7500DC63BE /* ImageViewClCell.swift in Sources */,
 				3AB2716821AA9F5400DEF53E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,12 +452,14 @@
 			baseConfigurationReference = D9DD4D3069AA277DFCFE4D03 /* Pods-EmilyEnglish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8A8LT6ZRCD;
+				DEVELOPMENT_TEAM = A26RM6Y92W;
 				INFOPLIST_FILE = EmilyEnglish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hans.EmilyEnglish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,12 +470,14 @@
 			baseConfigurationReference = B9AEF6972D1F9154BB1368FE /* Pods-EmilyEnglish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8A8LT6ZRCD;
+				DEVELOPMENT_TEAM = A26RM6Y92W;
 				INFOPLIST_FILE = EmilyEnglish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hans.EmilyEnglish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
